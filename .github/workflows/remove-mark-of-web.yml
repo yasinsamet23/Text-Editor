@@ -1,0 +1,15 @@
+name: Remove Mark of the Web
+
+on: [push]
+
+jobs:
+  remove_mark:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Remove Mark of the Web
+        run: |
+          Get-ChildItem -Recurse | Unblock-File
+        shell: powershell
