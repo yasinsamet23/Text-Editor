@@ -13,5 +13,6 @@ Bu komut, klasördeki tüm dosyalardaki Windows güvenlik engellerini kaldırır
 
 
 
-Ayrıca git clone yaparak'da indirebilirsiniz.
+Ayrıca :   git clone https://github.com/yasinsamet23/Text-Editor.git   ile terminalden de indirebilirsiniz.
+ 
 
